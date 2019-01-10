@@ -66,6 +66,7 @@ ul li {
     position: relative;
     transition: 0.5s ease;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 ul li:hover {
@@ -88,4 +89,17 @@ ul li.checked {
 
 .close:hover {
     color: #cb3737;
+}
+
+.edit {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    top: 10px;  
+    font-size: 18px;
+}
+
+.edit:hover {
+    color: #6b76ff;
 }
